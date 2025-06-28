@@ -1,0 +1,42 @@
+** sch_path: C:/Users/seiji/work/Op8_18/Xschem/op8_18_v2.sch
+**.subckt op8_18_v2 In+ In- VDD VSS bias out
+*.iopin In+
+*.iopin In-
+*.iopin out
+*.iopin VDD
+*.iopin VSS
+*.iopin bias
+M1 net3 bias VDD VDD pch w=15u l=5u as=0 ps=0 ad=0 pd=0 m=2
+M2 bias bias net3 VDD pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M3 net4 bias VDD VDD pch w=15u l=5u as=0 ps=0 ad=0 pd=0 m=2
+M4 net8 bias net4 VDD pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M5 net11 net8 net15 VSS nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M6 net15 net11 VSS VSS nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M7 net9 net8 net16 VSS nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M8 net16 net11 VSS VSS nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M9 net2 In+ net9 VSS nch w=20u l=5u as=0 ps=0 ad=0 pd=0 m=5
+M10 net5 In- net9 VSS nch w=20u l=5u as=0 ps=0 ad=0 pd=0 m=5
+M11 net5 bias VDD VDD pch w=15u l=5u as=0 ps=0 ad=0 pd=0 m=2
+M12 net12 bias net5 VDD pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M13 net2 bias VDD VDD pch w=15u l=5u as=0 ps=0 ad=0 pd=0 m=2
+M14 net7 bias net2 VDD pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M15 net12 net12 net17 VSS nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M16 net17 net12 VSS VSS nch w=10u l=5u as=0 ps=0 ad=0 pd=0 m=1
+M17 net13 net12 net18 VSS nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5
+M18 net18 net12 VSS VSS nch w=10u l=5u as=0 ps=0 ad=0 pd=0 m=1
+M19 net13 net6 net7 VDD pch w=40u l=1u as=0 ps=0 ad=0 pd=0 m=6
+M20 net6 net11 VSS VSS nch w=20u l=5u as=0 ps=0 ad=0 pd=0 m=3
+M21 net1 net1 VDD VDD pch w=40u l=1u as=0 ps=0 ad=0 pd=0 m=2
+M22 net6 net6 net1 VDD pch w=40u l=1u as=0 ps=0 ad=0 pd=0 m=2
+M23 net7 net10 net13 VSS nch w=40u l=1u as=0 ps=0 ad=0 pd=0 m=3
+M24 net10 bias VDD VDD pch w=10u l=5u as=0 ps=0 ad=0 pd=0 m=1
+M25 net10 net10 net14 VSS nch w=40u l=1u as=0 ps=0 ad=0 pd=0 m=1
+M26 net14 net14 VSS VSS nch w=40u l=1u as=0 ps=0 ad=0 pd=0 m=1
+M27 out net7 VDD VDD pch w=20u l=1u as=0 ps=0 ad=0 pd=0 m=15
+M29 out net13 VSS VSS nch w=20u l=1u as=0 ps=0 ad=0 pd=0 m=5
+R1 bias VSS 350k m=1
+R2 net8 net11 17.5k m=1
+C1 net7 out {ccap} m=1
+C2 net13 out {ccap} m=1
+**.ends
+.end
