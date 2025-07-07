@@ -1,0 +1,17 @@
+Version 4
+SymbolType CELL
+LINE Normal -80 -40 -112 40
+LINE Normal 112 -40 -80 -40
+LINE Normal 80 40 112 -40
+LINE Normal -112 40 80 40
+LINE Normal -112 48 -112 40
+LINE Normal 80 48 -112 48
+LINE Normal 80 48 80 40
+LINE Normal 112 -32 80 48
+LINE Normal 112 -40 112 -32
+TEXT 0 0 Left 1 Tcenter
+WINDOW 0 16 -40 Left 2
+WINDOW 3 -112 64 Left 2
+PIN 0 0 NONE 0
+PINATTR PinName Tcenter
+PINATTR SpiceOrder 1

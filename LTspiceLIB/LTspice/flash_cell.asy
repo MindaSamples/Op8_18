@@ -1,0 +1,28 @@
+Version 4
+SymbolType CELL
+LINE Normal -24 -48 -24 48
+LINE Normal -24 -32 0 -32
+LINE Normal 0 -48 0 -32
+LINE Normal -24 32 0 32
+LINE Normal 0 32 0 48
+LINE Normal -48 -24 -48 24
+LINE Normal -48 0 -48 8
+LINE Normal -64 0 -52 0
+LINE Normal -64 0 -48 0
+LINE Normal -24 0 0 0
+LINE Normal -36 -24 -36 24
+TEXT -18 6 Left 1 DVT=@dvt
+WINDOW 0 -32 20 Left 2
+WINDOW 3 -32 -20 Left 2
+PIN 0 -48 NONE 0
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN -64 0 NONE 0
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 0 48 NONE 0
+PINATTR PinName S
+PINATTR SpiceOrder 3
+PIN 0 0 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 4

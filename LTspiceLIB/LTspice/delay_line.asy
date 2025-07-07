@@ -1,0 +1,23 @@
+Version 4
+SymbolType CELL
+LINE Normal -112 -24 112 -24
+LINE Normal -112 -8 112 -8
+LINE Normal -112 -8 -112 16
+LINE Normal -128 16 -112 16
+LINE Normal 112 -8 112 16
+LINE Normal 112 16 128 16
+LINE Normal -128 -16 128 -16
+WINDOW 0 0 16 Left 2
+WINDOW 3 0 -24 Left 2
+PIN -128 -16 NONE 0
+PINATTR PinName nap
+PINATTR SpiceOrder 1
+PIN -128 16 NONE 0
+PINATTR PinName nam
+PINATTR SpiceOrder 2
+PIN 128 -16 NONE 0
+PINATTR PinName nbp
+PINATTR SpiceOrder 3
+PIN 128 16 NONE 0
+PINATTR PinName nbm
+PINATTR SpiceOrder 4

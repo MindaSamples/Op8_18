@@ -1,0 +1,7 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 -16 112 -16
+LINE Normal 0 -16 0 16
+TEXT 8 -40 Left 1 TIMESCALE
+WINDOW 0 56 20 Left 2
+WINDOW 3 56 -20 Left 2

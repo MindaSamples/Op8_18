@@ -1,0 +1,64 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 0 0 48
+LINE Normal -32 32 0 32
+LINE Normal -8 0 0 0
+LINE Normal -32 0 -8 -4
+LINE Normal -32 0 -8 4
+LINE Normal -8 -4 -8 4
+LINE Normal -32 -40 -32 -24
+LINE Normal -32 -8 -32 8
+LINE Normal -32 24 -32 40
+LINE Normal -48 32 -40 32
+LINE Normal -40 -32 -40 32
+LINE Normal 0 -32 -32 -32
+LINE Normal 0 -48 0 -32
+LINE Normal 0 64 -58 64
+LINE Normal 64 -104 64 -57
+LINE Normal -58 -112 55 -112
+LINE Normal -64 56 -64 -104
+LINE Normal 4 56 4 -40
+LINE Normal 16 -48 56 -48
+LINE Normal 0 -64 0 -48
+LINE Normal 0 -112 0 -96
+LINE Normal 9 -80 -1 -80
+LINE Normal 9 -75 9 -86
+LINE Normal -12 -80 -1 -80
+LINE Normal -12 -86 -12 -74
+LINE Normal -64 32 -48 32
+LINE Normal 0 64 0 48
+CIRCLE Normal -16 -96 16 -64
+TEXT 0 -112 Left 1 D
+TEXT -64 32 Left 1 G
+TEXT 0 64 Left 1 S
+TEXT 0 -48 Left 1 D2
+TEXT -48 32 Left 1 G2
+TEXT 0 48 Left 1 S2
+TEXT 64 -64 Left 1 Tj
+TEXT 64 -96 Left 1 Tc
+WINDOW 0 0 -4 Left 2
+WINDOW 3 0 -44 Left 2
+PIN 0 -112 NONE 0
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN -64 32 NONE 0
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 0 64 NONE 0
+PINATTR PinName S
+PINATTR SpiceOrder 3
+PIN 0 -48 NONE 0
+PINATTR PinName D2
+PINATTR SpiceOrder 4
+PIN -48 32 NONE 0
+PINATTR PinName G2
+PINATTR SpiceOrder 5
+PIN 0 48 NONE 0
+PINATTR PinName S2
+PINATTR SpiceOrder 6
+PIN 64 -64 NONE 0
+PINATTR PinName Tj
+PINATTR SpiceOrder 7
+PIN 64 -96 NONE 0
+PINATTR PinName Tc
+PINATTR SpiceOrder 8

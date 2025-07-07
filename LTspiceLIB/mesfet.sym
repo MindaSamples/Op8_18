@@ -1,0 +1,21 @@
+v {xschem version=3.4.4 file_version=1.1}
+G {type=
+
+}
+V {}
+S {}
+E {}
+L 4 10 7 10 52 {}
+L 4 30 50 30 60 {}
+L 4 30 10 30 0 {}
+L 4 10 10 30 10 {}
+L 4 0 50 10 50 {}
+L 4 10 50 30 50 {}
+B 5 28 -2 32 2 {name=D dir=inout}
+T {D} 30 0 0  0.2 0.2 {layer=13}
+B 5 -2 48 2 52 {name=G dir=inout}
+T {G} 0 50 0  0.2 0.2 {layer=13}
+B 5 28 58 32 62 {name=S dir=inout}
+T {S} 30 60 0  0.2 0.2 {layer=13}
+T {@value} 35 45 0 0 0.20 0.2 {}
+T {@name} 35 20 0 0 0.2 0.2 {}

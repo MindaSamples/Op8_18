@@ -5,7 +5,6 @@ K {}
 V {}
 S {}
 E {}
-T {;.step param Vbias 1.8 3.2 0.2} -45 -15 0 0 0.4 0.4 {}
 N 220 -10 300 -10 {
 lab=#net1}
 N 350 -10 380 -10 {
@@ -58,12 +57,12 @@ C {iopin.sym} 80 50 0 1 {name=p3 lab=v1
 }
 C {netlist.sym} -45 -40 0 0 {name=s1 value=".ac dec 10 10 100MEG"}
 C {netlist.sym} 195 -40 0 0 {name=s3 value=".param Vbias=2.5 ccap=1pF"}
-C {netlist.sym} 195 -70 0 0 {name=s5 value="*.step param ccap 0.2p 2p 0.5p"}
+C {netlist.sym} 195 -70 0 0 {name=s5 value=".step param ccap 0.2p 2p 0.5p"}
 C {voltage.sym} -40 30 0 0 {name=V2 value=5}
 C {voltage.sym} 80 70 0 1 {name=V1 value="SINE(2.5 0.1 1k) AC 1"}
 C {res.sym} 320 -10 1 0 {name=R3 value=25k}
 C {res.sym} 170 50 1 0 {name=R4 value=10k}
-C {voltage.sym} 220 80 0 0 {name=V3 value=2.8}
+C {voltage.sym} 220 80 0 0 {name=V3 value=3.2}
 C {op8_18_v2.sym} 300 70 0 0 {name=X1 model=}
 C {code_shown.sym} -90 195 0 0 {only_toplevel=false value=".include $HOMEPATH/KLayout/salt/PTS06/Technology/tech/models/MinedaPTS06_TT"
 }

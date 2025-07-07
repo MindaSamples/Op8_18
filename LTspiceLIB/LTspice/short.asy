@@ -1,0 +1,11 @@
+Version 4
+SymbolType CELL
+LINE Normal -48 0 48 0
+WINDOW 0 24 -36 Left 2
+WINDOW 3 3 22 Left 2
+PIN -48 0 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 48 0 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 2

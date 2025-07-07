@@ -1,0 +1,15 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -416 -64 416 -64
+LINE Normal -416 48 416 48
+LINE Normal -416 -64 -416 48
+LINE Normal 416 -64 416 48
+LINE Normal -384 -64 -384 -96
+LINE Normal -384 -96 448 -96
+LINE Normal 448 -96 448 32
+LINE Normal 448 32 -384 -64
+LINE Normal 416 32 -384 -96
+LINE Normal 416 -64 448 -96
+LINE Normal -384 -64 448 32
+WINDOW 0 16 -4 Left 2
+WINDOW 3 16 -44 Left 2
