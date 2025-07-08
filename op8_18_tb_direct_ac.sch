@@ -64,5 +64,5 @@ C {res.sym} 320 -10 1 0 {name=R3 value=25k}
 C {res.sym} 170 50 1 0 {name=R4 value=10k}
 C {voltage.sym} 220 80 0 0 {name=V3 value=3.2}
 C {op8_18_v2.sym} 300 70 0 0 {name=X1 model=}
-C {code_shown.sym} -90 195 0 0 {only_toplevel=false value=".include $HOMEPATH/KLayout/salt/PTS06/Technology/tech/models/MinedaPTS06_TT"
+C {code_shown.sym} -90 195 0 0 {only_toplevel=false value=".include $HOMEPATH/KLayout/salt/OpenRule1um/tech/tech/models/OR1_mos"
 }
